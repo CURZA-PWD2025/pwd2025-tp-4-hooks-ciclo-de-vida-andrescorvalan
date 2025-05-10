@@ -1,4 +1,6 @@
-const profesiones = [
+import type { Profesion } from "../resource/interfaces/profesion";
+
+export const profesiones: Profesion[] = [
   {
     id: 1,
     nombre: "Ingeniero",
